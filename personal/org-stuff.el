@@ -202,7 +202,7 @@
 ;;              :init                                                                 ;;
 ;;              (setq org-roam-v2-ack t)                                              ;;
 ;;              :custom                                                               ;;
-;;              (org-roam-directory "~/RoamNotes")                                    ;;
+;;              (org-roam-directory "~/Documents/Notes")                              ;;
 ;;              (org-roam-completion-everywhere t)                                    ;;
 ;;              (org-roam-dailies-capture-templates                                   ;;
 ;;               '(("d" "default" entry "* %<%I:%M %p>: %?"                           ;;
@@ -228,7 +228,7 @@
   :init
   (setq org-roam-v2-ack t)
   :custom
-  (org-roam-directory "~/RoamNotes/work")
+  (org-roam-directory "~/Documents/Notes")
   (org-roam-completion-everywhere t)
   :bind (("C-c n l" . org-roam-buffer-toggle)
          ("C-c n f" . org-roam-node-find)
